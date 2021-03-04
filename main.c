@@ -3,7 +3,7 @@
 int play(int* cash, int bet){
         char c[3]={'j', 'q','k'};
         printf("shuffeling......\n");
-        srand(time(NULL));
+        
         int i;
         for(i=0;i<5;i++){
             int x=rand()%3;
